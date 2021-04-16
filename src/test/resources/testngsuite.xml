@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WordPress">
+  <test name="WordPress Application Test">
+   <parameter name="browser" value="Firefox" />
+    <classes>
+    <class name="org.sample.wordpress.tests.TC001_LogInTestCase"/>
+    <class name="org.sample.wordpress.tests.TC002_NavigateToMyProfilePage"/>
+     <class name="org.sample.wordpress.tests.TC003_MyProfilePageTestCase"/>
+    </classes>
+  </test> 
+</suite> 
