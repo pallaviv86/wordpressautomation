@@ -40,3 +40,4 @@ Reports will be available inside the folder Project-Root-folder/target/test-outp
 4: Have all page classes inside org.sample.wordpress.pages package, all testcases inside org.sample.wordpress.tests package and utility classes inside org.sample.wordpress.utilities package
 5: All the project related files are inside Project-Root-folder/src/test/resources folder 
 6. Logs are generated in Project-Root-folder/logs/WordPressTest.log and TestNG reports are generated inside Project-Root-folder/target/test-output.
+7. I have executed tests on Firefox browser.
